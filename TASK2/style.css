@@ -1,0 +1,140 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+.hero{
+	height: 100vh;
+	width: 100%;
+	}    
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 40px;
+        padding-left: 4%;
+        padding-right: 8%;
+        background-color:rgb(2, 58, 6);
+    }
+    nav ul li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px  35px;
+    }
+    nav ul li a{
+        color: rgb(219, 228, 221);
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    nav ul li a:hover{
+        color: #cbe781;
+        transition: .4s;
+    }
+    .btn{
+        background-color:#eee5ee;
+        color: rgb(49, 98, 3);
+        text-decoration: none;
+        border: 5px solid transparent;
+        font-weight: bold;
+        padding: 10px 10px;
+        border-radius: 30px;
+        transition: transform .4s; 
+    }
+    .btn:hover{
+        transform: scale(1.2);
+    }
+    .qwe{
+        height: 200rem;
+        width: 98rem;
+        overflow: hidden;
+        backdrop-filter: blur(.4rem);
+        padding:10px;
+    }
+    #home{
+        padding-left: 60px;
+        padding-top: 120px;
+        font-size: 45px;
+        width:100%;
+    }
+    #about{
+        width: 100%;
+        box-sizing:border-box;
+        padding:390px 50px;
+        margin-top: -6cm;
+        font-size: 35px;
+        background-color: aliceblue;
+       
+        
+    }
+    .about .main{
+        width: 90rem;
+        height: 35rem;
+       
+        margin-left: -1cm;
+        margin-top:1cm;
+    }
+    #skills{
+        width: 100%;
+        box-sizing:border-box;
+        padding:300px 50px;
+        margin-top: -3cm;
+        font-size: 35px;
+        background-color: aliceblue;
+    }
+    .skills .rat{
+        height:35rem;
+        width:200rem;
+        background-color: white;
+        margin-top: -7cm;
+        margin-left: -1cm;
+
+
+    }
+    .c{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    .checked{
+        color: orange;
+      }
+    .Education{
+        width: 100%;
+            box-sizing:border-box;
+            padding:30px 50px;
+            margin-top: -8cm;
+            font-size: 40px;
+
+    }
+    .Education .edu{
+        height:65rem;
+        width:200rem;
+        background-color: rgb(243, 249, 252);
+        margin-top: 0.5cm;
+        margin-left: -1.3cm;
+        box-sizing:border-box;
+
+    }
+    #contact{
+            width: 100%;
+            box-sizing:border-box;
+            padding:400px 50px;
+            margin-top: -12cm;
+            font-size: 35px;
+            background-color: #fcfafa;
+           
+        }
+    .con .det{
+        height:35rem;
+        width:200rem;
+        background-color: #f9f5f5;
+        margin-top: -8.5cm;
+        margin-left: -1cm;
+
+    }
+    .con .social{
+        padding:40px 10px;
+}
