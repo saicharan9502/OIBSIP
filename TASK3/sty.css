@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    place-items:center;
+}
+body{
+    width:auto;
+    height: 100vh;
+    background-image: linear-gradient(#9FA5D5,#E8F5C8);
+    color:black;
+    border-radius: 50px;
+    border-bottom:1px solid;
+    text-align: center;
+    display: grid;
+}
+.temperature{
+    height:25rem;
+    width:35rem;
+    background-color: rgb(60, 113, 140);
+    margin: 150px 450px;
+    border-radius: 50px;
+}
+.temperature .ab{
+    padding:25px 0;
+}
+.temperature .ab .degree input{
+    padding:5px;
+    margin:5px;
+}
+.temperature .ab .degree select{
+    padding:5px;
+    margin:10px 5px;
+}
+#Result{
+    margin:10px 0px;
+    margin-top:-20px;
+    padding:15px 150px;
+    width:20%;
+    color:rgb(8, 8, 8);
+    align-items:flex-start;
+}
+ .value{
+    width: 50%;
+    height: 10%;
+    font-size:20px;
+    color: rgb(6, 6, 6);
+    background-color: rgb(28, 154, 154);
+    margin:20px 0px;
+    margin-left: 5cm;
+    padding:20px 20px;
+    margin-top:-0.5cm;
+}
+#val{
+    padding:0 60px;
+    background-color: rgb(241, 243, 240);
+    height:30px;
+}
+.conv{
+    margin:15px 110px;
+    border:black;
+    font-size:20px;
+    width:20%;
+    padding:0px 10px;
+}

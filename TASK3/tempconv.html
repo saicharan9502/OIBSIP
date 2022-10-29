@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="sty.css">
+        <title>temperature converter</title>
+    </head>
+    <body style="background-color:linear-gradient(rgb(137, 137, 252),rgb(142, 233, 142));">
+        <div class="temperature">
+            <h1 style="padding:0px 60px;">Temperature Converter</h1>
+            <div class="ab">
+                <div class="degree">
+                    <p>Enter Degree</p>
+                    <input type="number" class="t" id="deg" placeholder="e.g.54">
+                </div>
+                <div class="degree">
+                    <br><p>Type of Degree</p>
+                    <select id="option" class="opti">
+                        <option value="f" class="optio">fahrenheit</option>
+                        <option value="c" class="optio">celsius</option>
+                    </select></div>
+                </div>
+                    
+                       <p id="Result"><b>Result:</b> </p>
+                        <div class="value" id="val"></div>
+                   
+                   <button onclick="converter()" class="conv">convert</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
